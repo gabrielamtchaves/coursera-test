@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Título css e entities</title>
+
+	<style>
+	p {
+	  color: blue;
+	  font-size: 20px;
+	  <!-- width: 100px; -->
+	}
+	.VERMELHO {
+		color: red;
+	}
+	h1 {
+	  color: green;
+	  font-size: 36px;
+	  text-align: center;
+	}
+	<!-- General Sibling Selector -->
+	article ~ span {
+		color : red;
+	}
+	div p {
+		color: yellow;
+	}
+	section > p {
+		font-size: 25px;
+	}
+	</style>
+</head>
+<body>
+
+<h1>Don't be afraid to be &lt;then a 100% success &amp; &gt;more:</h1>
+<p>
+  &quot;It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory&nbsp;nor&nbsp;defeat.&quot;
+</p>
+<p>Theodor Roosevelt 1910 &copy; Copyright</p>
+<div>DIV
+	<p>P dentro da DIV</p>
+	<p class="VERMELHO">P da classe VERMELHO dentro de DIV</p>
+</div>
+<p>paragrafo</p>
+<section>
+	seção
+	<p>paragrafo dentro da secao. a cor azul é do estilo de P e o tamnanho é do seletor combinado a filhos de section</p>
+</section>
+
+<!-- General sibling selector que não deu certo
+<span>span antes de article</span>
+<article>article</article>
+<span>span depois de P</span>
+<span>Outro span depois de article</span>
+-->
+
+
+
+</body>
+</html>
