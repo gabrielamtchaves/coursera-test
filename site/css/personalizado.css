@@ -1,0 +1,31 @@
+/*  ----- Estilos para páginas web "Minha primeira página" ---------- */
+/*  ----- Escrito por Gabriela Chaves - www.gabrielachaves.com.br --- */
+
+/*  ---------- Cores: ---------- */
+/*  Verde-água acinzentado: #C7D3D4FF */
+/*  Roxo escuro: #603F83FF */
+/*  Roxo: #7850A8 */
+/*  Lavanda: #AE98D7 */
+/*  Cinza claro: #BABABA */
+/*  Cinza: #838383 */
+
+/*  ---------- Resets ---------- */
+
+/*  ---------- Elementos base ---------- */
+body {
+	font-size: 14px;
+	color: #FFF;
+	background-color: #C7D3D4FF;
+	font-family: 'Crimson Text', serif;
+}
+/*
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Crimson Text', serif;
+*/
+
+/*  ---------- Classes e entidades ---------- */
+#nav-bar-fundo {
+	background-color: #603F83FF;
+	border-radius: 0;
+	border: 0;
+}
