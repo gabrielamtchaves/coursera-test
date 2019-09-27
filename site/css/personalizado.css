@@ -29,14 +29,14 @@ font-family: 'Crimson Text', serif;
 	border-radius: 0;
 	border: 0;
 }
-#logo-img-pq, #logo-img-gr {
+/*#logo-img-pq, */#logo-img-gr {
 	width: 367px;
 	height: 79px;
 	margin: 0;
 }
-#logo-img-pq {
+/*#logo-img-pq {
 	background: url(https://raw.githubusercontent.com/gabrielamtchaves/coursera-test/master/site/logo-iniciais.png) no-repeat;
-}
+}*/
 #logo-img-gr {
 	background: url(https://raw.githubusercontent.com/gabrielamtchaves/coursera-test/master/site/logo.png) no-repeat;
 }
