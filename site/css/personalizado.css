@@ -29,3 +29,26 @@ font-family: 'Crimson Text', serif;
 	border-radius: 0;
 	border: 0;
 }
+#logo-img-pq, #logo-img-gr {
+	width: 367px;
+	height: 79px;
+	margin: 0;
+}
+#logo-img-pq {
+	background: url(https://raw.githubusercontent.com/gabrielamtchaves/coursera-test/master/site/logo-iniciais.png) no-repeat;
+}
+#logo-img-gr {
+	background: url(https://raw.githubusercontent.com/gabrielamtchaves/coursera-test/master/site/logo.png) no-repeat;
+}
+.navbar-brand h1 { /* Nome - Futuramente o logo será menor e o Gabriela Chaves será digitado */
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: white;
+  font-size: 20px;
+  /* Adicione algumas firulas!! */
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
